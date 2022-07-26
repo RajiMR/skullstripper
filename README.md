@@ -26,7 +26,7 @@ Segmented labels will be saved in 'outputPath/outputLabels'.
 
 Imageid and dicescore will be saved in 'outputPath/dice.csv'.
 
-### Instructions to run skullstrip function in Matlab ###
+### Instructions to run skullstripper function in Matlab ###
 skullstrip('/skullstripper/image/IBSR_01_ana.nii.gz','/skullstripper/label/mask.nii.gz','/skullstripper', 'gpu')
 
 ### Instructions to run "skullstripper" in XNAT ###
