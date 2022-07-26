@@ -3,6 +3,7 @@
 ### Skull stripping with 3D Densenet trained on NFBS data ###
 Build on Matlab R2021a and c3d.
 Works only with nifti files ('.nii', or '.nii.gz').
+
 Matlab function loop over image and label folder, perform skull stripping and write out calculated dice score to csv file.
 
 ### Supporting Files ###
@@ -20,6 +21,7 @@ processor = 'gpu';
 
 ### Outputs ###
 Segmented labels will be saved in 'outputPath/outputLabels'.
+
 Imageid and dicescore will be saved in 'outputPath/dice.csv'.
 
 ### Instructions to run skullstrip function in Matlab ###
